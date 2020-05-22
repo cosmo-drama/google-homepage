@@ -82,9 +82,9 @@
 
   .search-mic {
       position: absolute;
-      top: 16px;
+      top: 14px;
       right: 18px;
-      width: 14px;
+      width: 13px;
       cursor: pointer;
   }
 
@@ -132,10 +132,15 @@
   .search-btn:hover{
       box-shadow: 6px 2px 6px 2px #dfe1e5;
   }
-  .square-menu {
+  .material-icons {
         position: relative;
         top: -4px;
         cursor: pointer;
+        color:gray;
+  }
+
+  .material-icons:hover{
+    color: black;
   }
 
   .sign-in-btn {
